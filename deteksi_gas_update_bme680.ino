@@ -27,10 +27,10 @@ HardwareSerial pmsSerial(2);
 const char apn[] = "internet";
 
 // === MQTT ===
-const char* mqtt_server = "mqtt.yusufghazali.com";
+const char* mqtt_server = "mqtt.broker.com";
 const int   mqtt_port   = 1883;
-const char* mqtt_user   = "bm$578Bxc1vxDe3btKNpYL&bm64r#8";
-const char* mqtt_pass   = "5U5QcwfnZJTaZvBym6p!TuKWvgYLH%";
+const char* mqtt_user   = "";
+const char* mqtt_pass   = "";
 
 // === Topics ===
 const char* topic_mq2   = "siagas/sensor/mq2/value";
